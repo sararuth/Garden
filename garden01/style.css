@@ -1,0 +1,138 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+*{
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+  width: 100%
+}
+
+body{
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url("https://ae01.alicdn.com/kf/HTB1a_CpRpXXXXXlaXXXq6xXFXXXw/5x7FT-Cartoon-Farm-Wood-Fence-Hills-Red-Barn-Barnyard-Garden-Custom-Photo-Studio-Backdrop-Background-Vinyl.jpg_640x640.jpg");
+  height: 100%; 
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+.container{
+  height: 100%;
+}
+
+.container1{
+  padding-top: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container2{
+  width:100%;
+  margin-bottom: 100px;
+  border:none;
+  /*height: 100%;*/
+  position: relative;
+  top: 400px;
+  display: flex;
+  align-items: flex-end;
+}
+
+button, span{
+  border-radius: 5px;
+  padding: 15px 25px;
+  font-size: 22px;
+  text-decoration: none;
+  margin: 20px;
+  color: #fff;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.btnPlantOrangeTree{
+  background-color: #e67e22;
+}
+.btnPlantOrangeTree:hover {
+  background-color: #FF983C;
+}
+.btnWater {
+  background-color: #55acee;
+}
+
+.btnWater:hover {
+  background-color: #6FC6FF;
+}
+
+.btnPlantRose {
+  background-color: #e74c3c;
+}
+
+.btnPlantRose:hover {
+  background-color: #FF6656;
+}
+.btnPassDay {
+  background-color: #2ecc71;
+}
+
+.btnPassDay:hover {
+  background-color: #48E68B;
+}
+
+.gardenAge {
+  background-color: #f1c40f;
+}
+
+.garden-img{
+  width:100px;
+  margin: 100px;
+  position: absolute;
+  z-index: 1;
+  bottom: 100px;
+}
+
+.fruit-img{
+  width: 20px;
+  height: 20px;
+  margin: 50px;
+  z-index: 100;
+  position: absolute;
+  bottom: 300px;
+
+}
+
+.plantWrapper{
+  width: 100px;
+  height: 300px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  margin:0;
+}
+
+.orange-tree-img{
+  width: 120px;
+  height: 200px;
+  position: absolute;
+  z-index: 1;
+  bottom: 200px;
+}
+
+.rose-img{
+  width: 70px;
+  height: 100px;
+  position: absolute;
+  z-index: 0;
+  bottom: 350px;
+}
+
+.weed-img{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 2;
+  bottom: 200px;
+  margin: 0;
+}
